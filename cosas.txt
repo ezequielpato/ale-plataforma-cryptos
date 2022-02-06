@@ -1,0 +1,9 @@
+Formulario de registro:
+
+Los names son:
+
+nombre,
+apellido,
+pais,
+email,
+contraseña,
