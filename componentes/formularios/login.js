@@ -39,7 +39,7 @@ const Login = () => {
 					</h1>
 
 					<Form.Group controlId='Email'>
-						<Form.Label className='mt-2 mb-1' style={{ fontSize: '18px', color: '#ccc9d9' }}>
+						<Form.Label className='mt-4 mb-1' style={{ fontSize: '18px', color: '#ccc9d9' }}>
 							Email
 						</Form.Label>
 						<Form.Control
