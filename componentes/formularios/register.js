@@ -29,20 +29,32 @@ const Register = () => {
 				>
 					<h1 style={{ fontSize: '20px', color: '#fff' }}>Registro</h1>
 					<Form.Group controlId='Nombre'>
-						<Form.Label className='mt-4' style={{ fontSize: '18px', color: '#abb3ba' }}>
+						<Form.Label className='mt-4' style={{ fontSize: '18px', color: '#ccc9d9' }}>
 							Nombre
 						</Form.Label>
 						<Form.Control
 							type='text'
 							name='nombre'
 							ref={register}
-							className={errors.nombre && 'border-danger'}
-							style={{ borderRadius: 5 }}
+							className={errors.nombre && 'is-invalid'}
+							style={{
+								borderRadius: 5,
+								borderColor: '#313437',
+								backgroundColor: '#0d1117',
+								fontSize: '17px',
+								color: '#ccc9d9',
+							}}
 						/>
 						{errors.nombre && (
 							<Alert
-								className='mt-3 mb-3 border border-danger text-white'
-								style={{ backgroundColor: '#301a1e', borderRadius: 10 }}
+								className='mt-2 mb-3 text-white'
+								style={{
+									backgroundColor: '#301a1e',
+									borderColor: '#6f2a2b',
+									borderRadius: 10,
+									padding: '0.25rem 1.5rem',
+									height: '35px',
+								}}
 							>
 								{errors.nombre.message}
 							</Alert>
@@ -50,18 +62,28 @@ const Register = () => {
 					</Form.Group>
 
 					<Form.Group controlId='Apellido'>
-						<Form.Label style={{ fontSize: '18px', color: '#abb3ba' }}>Apellido</Form.Label>
+						<Form.Label style={{ fontSize: '18px', color: '#ccc9d9' }}>Apellido</Form.Label>
 						<Form.Control
 							type='text'
 							name='apellido'
 							ref={register}
-							className={`form-control ${errors.apellido && 'border-danger'}`}
-							style={{ borderRadius: 5 }}
+							className={`form-control ${errors.apellido && 'is-invalid'}`}
+							style={{
+								borderRadius: 5,
+								borderColor: '#313437',
+								backgroundColor: '#0d1117',
+								fontSize: '17px',
+								color: '#ccc9d9',
+							}}
 						/>
 						{errors.apellido && (
 							<Alert
-								className='mt-3 mb-3 border border-danger text-white'
-								style={{ backgroundColor: '#301a1e', borderRadius: 10 }}
+								className='mt-3 mb-3 text-white'
+								style={{
+									backgroundColor: '#301a1e',
+									borderColor: '#6f2a2b',
+									borderRadius: 10,
+								}}
 							>
 								{errors.apellido.message}
 							</Alert>
@@ -69,13 +91,19 @@ const Register = () => {
 					</Form.Group>
 
 					<Form.Group controlId='País'>
-						<Form.Label style={{ fontSize: '18px', color: '#abb3ba' }}>País</Form.Label>
+						<Form.Label style={{ fontSize: '18px', color: '#ccc9d9' }}>País</Form.Label>
 
 						<Form.Control
 							as='select'
 							name='pais'
 							ref={register}
-							style={{ borderRadius: 5 }}
+							style={{
+								borderRadius: 5,
+								borderColor: '#313437',
+								backgroundColor: '#0d1117',
+								fontSize: '17px',
+								color: '#ccc9d9',
+							}}
 							custom
 						>
 							{paises.map((post, i) => (
@@ -87,8 +115,12 @@ const Register = () => {
 
 						{errors.pais && (
 							<Alert
-								className='mt-3 mb-3 border border-danger text-white'
-								style={{ backgroundColor: '#301a1e', borderRadius: 10 }}
+								className='mt-3 mb-3 text-white'
+								style={{
+									backgroundColor: '#301a1e',
+									borderColor: '#6f2a2b',
+									borderRadius: 10,
+								}}
 							>
 								{errors.pais.message}
 							</Alert>
@@ -96,18 +128,28 @@ const Register = () => {
 					</Form.Group>
 
 					<Form.Group controlId='Email'>
-						<Form.Label style={{ fontSize: '18px', color: '#abb3ba' }}>Email</Form.Label>
+						<Form.Label style={{ fontSize: '18px', color: '#ccc9d9' }}>Email</Form.Label>
 						<Form.Control
 							type='email'
 							name='email'
 							ref={register}
-							className={errors.email && 'border-danger'}
-							style={{ borderRadius: 5 }}
+							className={errors.email && 'is-invalid'}
+							style={{
+								borderRadius: 5,
+								borderColor: '#313437',
+								backgroundColor: '#0d1117',
+								fontSize: '17px',
+								color: '#ccc9d9',
+							}}
 						/>
 						{errors.email && (
 							<Alert
-								className='mt-3 mb-3 border-danger text-white'
-								style={{ backgroundColor: '#301a1e', borderRadius: 10 }}
+								className='mt-3 mb-3 text-white'
+								style={{
+									backgroundColor: '#301a1e',
+									borderColor: '#6f2a2b',
+									borderRadius: 10,
+								}}
 							>
 								{errors.email.message}
 							</Alert>
@@ -115,18 +157,28 @@ const Register = () => {
 					</Form.Group>
 
 					<Form.Group controlId='Contraseña'>
-						<Form.Label style={{ fontSize: '18px', color: '#abb3ba' }}>Contraseña</Form.Label>
+						<Form.Label style={{ fontSize: '18px', color: '#ccc9d9' }}>Contraseña</Form.Label>
 						<Form.Control
 							type='password'
 							name='password'
 							ref={register}
-							className={errors.password && 'border-danger'}
-							style={{ borderRadius: 5 }}
+							className={errors.password && 'is-invalid'}
+							style={{
+								borderRadius: 5,
+								borderColor: '#313437',
+								backgroundColor: '#0d1117',
+								fontSize: '17px',
+								color: '#ccc9d9',
+							}}
 						/>
 						{errors.password && (
 							<Alert
-								className='mt-3 mb-3 border border-danger text-white'
-								style={{ backgroundColor: '#301a1e', borderRadius: 10 }}
+								className='mt-3 mb-3 text-white'
+								style={{
+									backgroundColor: '#301a1e',
+									borderColor: '#6f2a2b',
+									borderRadius: 10,
+								}}
 							>
 								{errors.password.message}
 							</Alert>
