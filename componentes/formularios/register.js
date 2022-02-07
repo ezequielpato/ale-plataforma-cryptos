@@ -1,10 +1,16 @@
-import { yupResolver } from '@hookform/resolvers/yup';
 import { useEffect } from 'react';
-import { Container, Row, Alert, Button, Form } from 'react-bootstrap';
+import { Container, Row, Button, Form } from 'react-bootstrap';
 import { useForm } from 'react-hook-form';
+
+import { yupResolver } from '@hookform/resolvers/yup';
+
+// Schema con validaciones de yupResolver
 import { schema } from '../../schemas/schema';
+
+// Libreria de Animaciones https://animate.style/
 import 'animate.css';
 
+// Array de paises para Form.Select
 import paises from '../../utils/paises';
 
 const Register = () => {
@@ -28,16 +34,21 @@ const Register = () => {
 					style={{ backgroundColor: '#161b22' }}
 					onSubmit={handleSubmit(registro)}
 				>
-					<h1 style={{ fontSize: '20px', color: '#fff' }}>Registro</h1>
+					<h1
+						className='animate__animated animate__bounceIn'
+						style={{ fontSize: '20px', color: '#fff' }}
+					>
+						Registro
+					</h1>
 					<Form.Group controlId='Nombre'>
-						<Form.Label className='mt-4' style={{ fontSize: '18px', color: '#ccc9d9' }}>
+						<Form.Label className='mt-4 mb-1' style={{ fontSize: '18px', color: '#ccc9d9' }}>
 							Nombre
 						</Form.Label>
 						<Form.Control
 							type='text'
 							name='nombre'
 							ref={register}
-							className={errors.nombre && 'is-invalid'}
+							className={errors.nombre && 'is-invalid border-danger'}
 							style={{
 								borderRadius: 5,
 								borderColor: '#313437',
@@ -47,28 +58,24 @@ const Register = () => {
 							}}
 						/>
 						{errors.nombre && (
-							<Alert
-								className='mt-2 mb-3 text-white'
-								style={{
-									backgroundColor: '#301a1e',
-									borderColor: '#6f2a2b',
-									borderRadius: 10,
-									padding: '0.50rem 1.5rem',
-									height: '40px',
-								}}
+							<p
+								className='mt-2 mb-3 animate__animated animate__headShake'
+								style={{ color: '#e44258' }}
 							>
 								{errors.nombre.message}
-							</Alert>
+							</p>
 						)}
 					</Form.Group>
 
 					<Form.Group controlId='Apellido'>
-						<Form.Label style={{ fontSize: '18px', color: '#ccc9d9' }}>Apellido</Form.Label>
+						<Form.Label className='mt-2 mb-1' style={{ fontSize: '18px', color: '#ccc9d9' }}>
+							Apellido
+						</Form.Label>
 						<Form.Control
 							type='text'
 							name='apellido'
 							ref={register}
-							className={`form-control ${errors.apellido && 'is-invalid'}`}
+							className={`${errors.apellido && 'is-invalid border-danger'}`}
 							style={{
 								borderRadius: 5,
 								borderColor: '#313437',
@@ -78,23 +85,19 @@ const Register = () => {
 							}}
 						/>
 						{errors.apellido && (
-							<Alert
-								className='mt-2 mb-3 text-white'
-								style={{
-									backgroundColor: '#301a1e',
-									borderColor: '#6f2a2b',
-									borderRadius: 10,
-									padding: '0.50rem 1.5rem',
-									height: '40px',
-								}}
+							<p
+								className='mt-2 mb-3 animate__animated animate__headShake'
+								style={{ color: '#e44258' }}
 							>
 								{errors.apellido.message}
-							</Alert>
+							</p>
 						)}
 					</Form.Group>
 
 					<Form.Group controlId='País'>
-						<Form.Label style={{ fontSize: '18px', color: '#ccc9d9' }}>País</Form.Label>
+						<Form.Label className='mt-2 mb-1' style={{ fontSize: '18px', color: '#ccc9d9' }}>
+							País
+						</Form.Label>
 
 						<Form.Control
 							as='select'
@@ -118,12 +121,14 @@ const Register = () => {
 					</Form.Group>
 
 					<Form.Group controlId='Email'>
-						<Form.Label style={{ fontSize: '18px', color: '#ccc9d9' }}>Email</Form.Label>
+						<Form.Label className='mt-2 mb-1' style={{ fontSize: '18px', color: '#ccc9d9' }}>
+							Email
+						</Form.Label>
 						<Form.Control
 							type='email'
 							name='email'
 							ref={register}
-							className={errors.email && 'is-invalid'}
+							className={errors.email && 'is-invalid border-danger'}
 							style={{
 								borderRadius: 5,
 								borderColor: '#313437',
@@ -133,28 +138,24 @@ const Register = () => {
 							}}
 						/>
 						{errors.email && (
-							<Alert
-								className='mt-2 mb-3 text-white'
-								style={{
-									backgroundColor: '#301a1e',
-									borderColor: '#6f2a2b',
-									borderRadius: 10,
-									padding: '0.50rem 1.5rem',
-									height: '40px',
-								}}
+							<p
+								className='mt-2 mb-3 animate__animated animate__headShake'
+								style={{ color: '#e44258' }}
 							>
 								{errors.email.message}
-							</Alert>
+							</p>
 						)}
 					</Form.Group>
 
 					<Form.Group controlId='Contraseña'>
-						<Form.Label style={{ fontSize: '18px', color: '#ccc9d9' }}>Contraseña</Form.Label>
+						<Form.Label className='mt-2 mb-1' style={{ fontSize: '18px', color: '#ccc9d9' }}>
+							Contraseña
+						</Form.Label>
 						<Form.Control
 							type='password'
 							name='password'
 							ref={register}
-							className={errors.password && 'is-invalid'}
+							className={errors.password && 'is-invalid border-danger'}
 							style={{
 								borderRadius: 5,
 								borderColor: '#313437',
@@ -164,25 +165,31 @@ const Register = () => {
 							}}
 						/>
 						{errors.password && (
-							<Alert
-								className='mt-2 mb-3 text-white'
-								style={{
-									backgroundColor: '#301a1e',
-									borderColor: '#6f2a2b',
-									borderRadius: 10,
-									padding: '0.50rem 1.5rem',
-									height: '40px',
-								}}
+							// <Alert
+							// 	className='mt-2 mb-3 text-white'
+							// 	style={{
+							// 		backgroundColor: '#301a1e',
+							// 		borderColor: '#6f2a2b',
+							// 		borderRadius: 10,
+							// 		padding: '0.50rem 1.5rem',
+							// 		height: '40px',
+							// 	}}
+							// >
+							// 	{errors.password.message}
+							// </Alert>
+							<p
+								className='mt-2 mb-3 animate__animated animate__headShake'
+								style={{ color: '#e44258' }}
 							>
 								{errors.password.message}
-							</Alert>
+							</p>
 						)}
 					</Form.Group>
 
 					<Button
 						variant='success'
 						type='submit'
-						className='btn btn-primary btn-block js-sign-in-button mt-4'
+						className='btn btn-primary btn-block js-sign-in-button mt-4 animate__animated animate__fadeInUp'
 						style={{ borderRadius: 10, fontWeight: 500, fontSize: '18px' }}
 					>
 						Registrar
