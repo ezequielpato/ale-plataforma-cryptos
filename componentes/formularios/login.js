@@ -3,6 +3,7 @@ import { useEffect } from 'react';
 import { Container, Alert, Button, Form } from 'react-bootstrap';
 import { useForm } from 'react-hook-form';
 import { schema } from '../../schemas/schema';
+import 'animate.css';
 
 const Login = () => {
 	const { register, handleSubmit, errors, reset, setValue } = useForm({
@@ -60,11 +61,13 @@ const Login = () => {
 						/>
 						{errors.email && (
 							<Alert
-								className='mt-3 mb-3 text-white'
+								className='mt-2 mb-3 text-white'
 								style={{
 									backgroundColor: '#301a1e',
 									borderColor: '#6f2a2b',
 									borderRadius: 10,
+									padding: '0.50rem 1.5rem',
+									height: '40px',
 								}}
 							>
 								{errors.email.message}
@@ -89,11 +92,13 @@ const Login = () => {
 						/>
 						{errors.password && (
 							<Alert
-								className='mt-3 mb-3 text-white'
+								className='mt-2 mb-3 text-white'
 								style={{
 									backgroundColor: '#301a1e',
 									borderColor: '#6f2a2b',
 									borderRadius: 10,
+									padding: '0.50rem 1.5rem',
+									height: '40px',
 								}}
 							>
 								{errors.password.message}

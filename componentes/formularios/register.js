@@ -3,6 +3,7 @@ import { useEffect } from 'react';
 import { Container, Row, Alert, Button, Form } from 'react-bootstrap';
 import { useForm } from 'react-hook-form';
 import { schema } from '../../schemas/schema';
+import 'animate.css';
 
 import paises from '../../utils/paises';
 
@@ -52,8 +53,8 @@ const Register = () => {
 									backgroundColor: '#301a1e',
 									borderColor: '#6f2a2b',
 									borderRadius: 10,
-									padding: '0.25rem 1.5rem',
-									height: '35px',
+									padding: '0.50rem 1.5rem',
+									height: '40px',
 								}}
 							>
 								{errors.nombre.message}
@@ -78,11 +79,13 @@ const Register = () => {
 						/>
 						{errors.apellido && (
 							<Alert
-								className='mt-3 mb-3 text-white'
+								className='mt-2 mb-3 text-white'
 								style={{
 									backgroundColor: '#301a1e',
 									borderColor: '#6f2a2b',
 									borderRadius: 10,
+									padding: '0.50rem 1.5rem',
+									height: '40px',
 								}}
 							>
 								{errors.apellido.message}
@@ -112,19 +115,6 @@ const Register = () => {
 								</option>
 							))}
 						</Form.Control>
-
-						{errors.pais && (
-							<Alert
-								className='mt-3 mb-3 text-white'
-								style={{
-									backgroundColor: '#301a1e',
-									borderColor: '#6f2a2b',
-									borderRadius: 10,
-								}}
-							>
-								{errors.pais.message}
-							</Alert>
-						)}
 					</Form.Group>
 
 					<Form.Group controlId='Email'>
@@ -144,11 +134,13 @@ const Register = () => {
 						/>
 						{errors.email && (
 							<Alert
-								className='mt-3 mb-3 text-white'
+								className='mt-2 mb-3 text-white'
 								style={{
 									backgroundColor: '#301a1e',
 									borderColor: '#6f2a2b',
 									borderRadius: 10,
+									padding: '0.50rem 1.5rem',
+									height: '40px',
 								}}
 							>
 								{errors.email.message}
@@ -173,11 +165,13 @@ const Register = () => {
 						/>
 						{errors.password && (
 							<Alert
-								className='mt-3 mb-3 text-white'
+								className='mt-2 mb-3 text-white'
 								style={{
 									backgroundColor: '#301a1e',
 									borderColor: '#6f2a2b',
 									borderRadius: 10,
+									padding: '0.50rem 1.5rem',
+									height: '40px',
 								}}
 							>
 								{errors.password.message}
