@@ -1,8 +1,8 @@
 // import Header from '../componentes/Header';
 import Navbar from '../componentes/Navbar';
-import Main from '../componentes/main';
-import Login from '../componentes/formularios/Login';
-import Register from '../componentes/formularios/Register';
+import Main from '../componentes/Main';
+import Login from '../componentes/Formularios/Login';
+import Register from '../componentes/Formularios/Register';
 import Footer from '../componentes/Footer';
 
 export default function Home() {
@@ -15,7 +15,7 @@ export default function Home() {
 			<Main />
 
 			{/** Register and Login Components */}
-			{/* <Register /> */}
+			<Register />
 			<Login />
 
 			{/* Footer Component */}
