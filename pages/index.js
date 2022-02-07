@@ -1,28 +1,25 @@
 // import Header from '../componentes/Header';
 import Navbar from '../componentes/Navbar';
-import Header from '../componentes/Header';
-import SectionOne from '../componentes/SectionOne';
-import SectionTwo from '../componentes/SectionTwo';
-import SectionThree from '../componentes/SectionThree';
+import Main from '../componentes/main';
 import Login from '../componentes/formularios/Login';
 import Register from '../componentes/formularios/Register';
 import Footer from '../componentes/Footer';
 
 export default function Home() {
 	return (
-		<>
+		<section className='text-light'>
 			{/** Header Component */}
 			<Navbar />
-			<Header />
-			<SectionOne />
-			<SectionTwo />
-			<SectionThree />
-			<Footer />
 
-			{/* <Header /> */}
+			{/* Primary Main Component */}
+			<Main />
+
 			{/** Register and Login Components */}
-			<Register />
+			{/* <Register /> */}
 			<Login />
-		</>
+
+			{/* Footer Component */}
+			<Footer />
+		</section>
 	);
 }

@@ -1,8 +1,8 @@
 const Navbar = () => {
 	return (
-		<div className='mt-4'>
+		<section className='m-3'>
 			<h4>Navbar</h4>
-		</div>
+		</section>
 	);
 };
 
