@@ -4,6 +4,7 @@ import Main from '../componentes/Main';
 import Login from '../componentes/Formularios/Login';
 import Register from '../componentes/Formularios/Register';
 import Footer from '../componentes/Footer';
+import Cards from '../componentes/Cards';
 
 export default function Home() {
 	return (
@@ -12,6 +13,7 @@ export default function Home() {
 			<Navbar />
 
 			{/* Primary Main Component */}
+			<Cards />
 			<Main />
 
 			{/** Register and Login Components */}

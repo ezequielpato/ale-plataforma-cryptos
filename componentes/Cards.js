@@ -6,20 +6,20 @@ import { cards } from '../utils/cards';
 
 const PostCard = ({ cards }) => (
 	// Cuerpo completo de la carta
-	<div className='card card-style text-dark col-md-2 m-4 p-0'>
+	<section className='card-wrap'>
 		{/* Header imagen de la carta */}
-		<div style={{ borderRadius: '10px 10px 0 0' }} className='overflow'>
+		<div className='overflow card-img'>
 			<img src={cards.imageURL} alt='' className='card-img-top' />
 		</div>
 
 		{/* Body contenido de la carta */}
-		<div className='card-body p-3'>
+		<section className='card-body'>
 			{/* Titulo de la carta */}
 
-			<h5 className='text-dark font-weight-bold'>{cards.title}</h5>
+			<h5>{cards.title}</h5>
 
 			{/* Descripcion  */}
-			<p style={{ fontSize: '13px', color: '#777' }}>{cards.description}</p>
+			<p>{cards.description}</p>
 
 			{/* Barra de progreso */}
 			{/* <p className='mt-4 mb-1 text-black-50' style={{ fontSize: '11px' }}>
@@ -32,16 +32,16 @@ const PostCard = ({ cards }) => (
 				label={`${cards.percentage}%`}
 			/> */}
 			{/* Curso dictado por */}
-			<p className='mb-0' style={{ fontSize: '12px' }}>
-				Alejandro Egea
-			</p>
+		</section>
+		<div id='card-created-by'>
+			<p>Alejandro Egea</p>
 		</div>
-	</div>
+	</section>
 );
 
-const Blog = () => {
+const Cards = () => {
 	return (
-		<div className='d-flex justify-content-center'>
+		<div className='cards-container'>
 			{cards.map((cards, id) => (
 				<PostCard cards={cards} key={id} />
 			))}
@@ -49,4 +49,4 @@ const Blog = () => {
 	);
 };
 
-export default Blog;
+export default Cards;
