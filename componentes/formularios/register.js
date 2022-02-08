@@ -189,7 +189,7 @@ const Register = () => {
 					<Button
 						variant='success'
 						type='submit'
-						className='btn btn-primary btn-block js-sign-in-button mt-4 animate__animated animate__fadeInUp'
+						className='btn btn-warning btn-block js-sign-in-button mt-4 animate__animated animate__fadeInUp'
 						style={{ borderRadius: 10, fontWeight: 500, fontSize: '18px' }}
 					>
 						Registrar

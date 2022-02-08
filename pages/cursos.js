@@ -22,7 +22,7 @@ const PostCard = ({ cards }) => (
 			<p style={{ fontSize: '13px', color: '#777' }}>{cards.description}</p>
 
 			{/* Barra de progreso */}
-			<p className='mt-4 mb-1 text-black-50' style={{ fontSize: '11px' }}>
+			{/* <p className='mt-4 mb-1 text-black-50' style={{ fontSize: '11px' }}>
 				COMPLETADO
 			</p>
 			<ProgressBar
@@ -30,7 +30,7 @@ const PostCard = ({ cards }) => (
 				animated
 				now={cards.percentage}
 				label={`${cards.percentage}%`}
-			/>
+			/> */}
 			{/* Curso dictado por */}
 			<p className='mb-0' style={{ fontSize: '12px' }}>
 				Alejandro Egea

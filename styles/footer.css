@@ -1,16 +1,6 @@
-.footer-h6 {
-	font-size: 0.8rem;
-}
-
-.footer-p {
-	font-size: 0.8rem;
-	text-align: center;
-	margin-bottom: 0rem;
-}
-
 .footer-container {
 	background-color: #161b22;
-	height: 13rem;
+	height: auto;
 	margin-top: 4rem;
 }
 
@@ -22,17 +12,35 @@
 	height: 100%;
 	width: 100%;
 	margin: 0 auto;
-	padding: 1rem;
+	padding: 1rem 0 0.5rem 0;
 }
 
 .footer-links-container {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	align-items: center;
 	justify-content: center;
 	width: 100%;
-	height: 3rem;
-	color: #fff;
+	margin-bottom: 0.8rem;
+}
+
+.footer-h6 {
+	display: inline-block;
+	flex-direction: row;
+	font-size: 0.8rem;
+	margin: 0 0.5rem 0 0;
+	color: #848e9c;
+}
+
+.footer-h6:hover {
+	color: #eaecef;
+	transition: 0.3s ease-out;
+}
+
+.footer-img {
+	width: 169.83px;
+	height: 119.83px;
+	margin: 0.5rem 0 1rem 0;
 }
 
 .footer-master-tittle {
@@ -47,33 +55,61 @@
 	justify-content: space-between;
 	align-items: center;
 	width: 100%;
-	height: 5rem;
-	margin: auto;
+	height: 2rem;
+	margin: 0 auto 1rem auto;
 }
 
 .footer-links-group {
 	display: flex;
 	flex-direction: row;
 }
-.footer-social-icons-links {
-	display: flex;
-	align-items: center;
-	color: #fff;
-	font-size: 1.3rem;
-	margin-right: 0.5rem;
-}
-
-.footer-social-icons-links:hover {
-	color: #d8ab23;
-	transition: 0.3s ease-out;
-}
 
 .footer-link {
 	display: flex;
 	flex-direction: row;
+	margin: 0 0.5rem 0 0.5rem;
+}
+
+.footer-social-icons-links {
+	display: flex;
+	align-items: center;
+	color: #848e9c;
+	font-size: 1rem;
+	margin-right: 0.5rem;
+}
+
+.footer-social-icons-links:hover {
+	color: #eaecef;
+	transition: 0.3s ease-out;
 }
 
 .footer-link-p {
-	font-size: 1rem;
-	margin: 0 1rem 0.1rem 0;
+	font-size: 0.9rem;
+	color: #848e9c;
+	margin-bottom: 0.2rem;
+}
+
+.footer-copyright-section {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+	width: 100%;
+}
+
+.footer-p {
+	font-size: 0.8rem;
+	width: 100%;
+	margin-bottom: 0rem;
+}
+#footer-created-by {
+	font-size: 0.8rem;
+	margin: 0;
+	color: #848e9c;
+}
+
+#footer-created-by:hover {
+	color: #bd9f46;
+	transition: 0.3s ease-out;
+	text-decoration: none;
 }
