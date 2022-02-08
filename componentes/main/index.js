@@ -1,7 +1,9 @@
-import Header from '/componentes/main/Header';
-import SectionOne from '/componentes/main/SectionOne';
-import SectionTwo from '/componentes/main/SectionTwo';
-import SectionThree from '/componentes/main/SectionThree';
+import Header from './Header';
+import SectionOne from './SectionOne';
+import SectionTwo from './SectionTwo';
+import SectionThree from './SectionThree';
+import SectionFour from './SectionFour';
+import Contacto from './Contacto';
 import SectionLast from './SectionLast';
 
 const Main = () => {
@@ -11,6 +13,8 @@ const Main = () => {
 			<SectionOne />
 			<SectionTwo />
 			<SectionThree />
+			<SectionFour />
+			<Contacto />
 			<SectionLast />
 		</section>
 	);

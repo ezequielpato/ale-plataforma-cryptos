@@ -44,6 +44,30 @@
 	color: #292929;
 }
 
+.card-overflow {
+	height: 11rem;
+	overflow: hidden;
+}
+
+.card-style {
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.card-style:hover {
+	transform: scale(1.01);
+	transition: all 0.2s ease-in-out;
+}
+
+.card-img-top {
+	transform: scale(1);
+	transition: all 0.2s ease-in-out;
+}
+
+.card-img-top:hover {
+	transform: scale(1.1);
+}
+
 @media (max-width: 1200px) {
 	.cards-container {
 		max-width: 730px;

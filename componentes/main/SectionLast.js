@@ -7,5 +7,3 @@ const SectionLast = () => {
 };
 
 export default SectionLast;
-
-// #0b0e11

@@ -8,7 +8,7 @@ const PostCard = ({ cards }) => (
 	// Cuerpo completo de la carta
 	<section className='card-wrap'>
 		{/* Header imagen de la carta */}
-		<div className='overflow card-img'>
+		<div className='card-overflow card-img'>
 			<img src={cards.imageURL} alt='' className='card-img-top' />
 		</div>
 

@@ -13,12 +13,12 @@ export default function Home() {
 			<Navbar />
 
 			{/* Primary Main Component */}
-			<Cards />
 			<Main />
+			<Cards />
 
 			{/** Register and Login Components */}
-			<Register />
-			<Login />
+			{/* <Register />
+			<Login /> */}
 
 			{/* Footer Component */}
 			<Footer />
