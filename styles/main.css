@@ -81,7 +81,11 @@
 }
 
 .main-bglightgrey2 {
-	color: #a3aab6;
+	background-color: #a3aab6;
+}
+
+.main-bglightgrey3 {
+	background-color: #e2e2e2;
 }
 
 /* Text */

@@ -12,10 +12,15 @@
 	max-width: 333.7px;
 	height: auto;
 	margin: auto;
-	background-color: white;
+	background-color: #ececec;
 	border: 1px solid #dfdfdf;
 	border-radius: 10px;
 	margin-bottom: 2rem;
+}
+
+.card-wrap:hover {
+	transform: scale(1.05);
+	transition: 400ms ease-in-out;
 }
 
 .card-img {
@@ -23,18 +28,20 @@
 }
 
 .card-body {
-	height: 150px;
+	height: 220px;
 	padding: 1rem;
+	text-align: center;
 }
 
-.card-body h5 {
+#h5 {
 	color: black;
-	font-weight: bold;
+	font-weight: 500;
 }
 
 .card-body p {
-	font-size: 0.8rem;
-	color: #777;
+	margin-top: 1rem;
+	font-size: 1rem;
+	color: #434c58;
 }
 
 #card-created-by {

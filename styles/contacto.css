@@ -7,14 +7,14 @@
 #contacto-title {
 	font-size: 1.6rem;
 	text-transform: uppercase;
-	text-align: center;
+	text-align: left;
 }
 
 #contacto-subtitle {
 	margin-bottom: 3rem;
 	font-size: 1.2rem;
 	text-transform: uppercase;
-	text-align: center;
+	text-align: left;
 }
 
 .contacto-wrap {
@@ -40,6 +40,7 @@
 
 .contacto-box h4 {
 	margin-bottom: 0.2rem;
+	margin-left: 0.5rem;
 	font-size: 1.3rem;
 	font-weight: 300;
 	text-align: left;
@@ -47,7 +48,7 @@
 
 .contacto-box h6 {
 	font-size: 1rem;
-	margin: 0 0 3rem 2.2rem;
+	margin: 0 0 3rem 3rem;
 	line-height: 1.5rem;
 	text-align: left;
 	font-weight: 300;
@@ -69,6 +70,11 @@
 	margin: 0 0.5rem 0 0;
 }
 
+.contacto-hover:hover {
+	transform: scale(1.15);
+	transition: 100ms ease-in-out;
+}
+
 #contacto-phone {
 	font-size: 1.5rem;
 	margin: 0 0.5rem 0 0;
@@ -82,6 +88,10 @@
 	font-size: 1rem;
 	margin: 0.3rem 0.2rem;
 	color: #0ecb81;
+}
+
+#contacto-wapp:hover {
+	color: #f0b90b;
 }
 
 .contacto-ico-contact {
@@ -122,7 +132,7 @@
 	}
 
 	.contacto-box {
-		padding: 2.5rem 1rem 2.5rem 2rem;
+		padding: 2.5rem 1rem 2.5rem 1.5rem;
 	}
 }
 

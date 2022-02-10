@@ -17,19 +17,19 @@ const Contacto = () => {
 
 					{/* Datos de contacto */}
 					<div className='contacto-icon-div'>
-						<FaRegAddressCard id='contacto-address' />
+						<FaRegAddressCard className='contacto-hover' id='contacto-address' />
 						<h4 className='main-textgrey3'>Dirección:</h4>
 					</div>
 					<h6 className='main-textgrey '>solicitar dato...</h6>
 
 					<div className='contacto-icon-div'>
-						<HiOutlineMail id='contacto-email' />
+						<HiOutlineMail className='contacto-hover' id='contacto-email' />
 						<h4 className='main-textgrey3'>Email:</h4>
 					</div>
 					<h6 className='main-textgrey '>info@mastercrypto-club.com</h6>
 
 					<div className='contacto-icon-div'>
-						<BsTelephoneForward id='contacto-phone' />
+						<BsTelephoneForward className='contacto-hover' id='contacto-phone' />
 						<h4 className='main-textgrey3'>Teléfonos:</h4>
 					</div>
 

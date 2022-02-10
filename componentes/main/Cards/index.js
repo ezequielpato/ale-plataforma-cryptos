@@ -2,7 +2,7 @@
 import { ProgressBar } from 'react-bootstrap';
 
 // Data para cards de cursos
-import { cards } from '../utils/cards';
+import { cards } from '../../../utils/cards';
 
 const PostCard = ({ cards }) => (
 	// Cuerpo completo de la carta
@@ -16,7 +16,7 @@ const PostCard = ({ cards }) => (
 		<section className='card-body'>
 			{/* Titulo de la carta */}
 
-			<h5>{cards.title}</h5>
+			<h5 id='h5'>{cards.title}</h5>
 
 			{/* Descripcion  */}
 			<p>{cards.description}</p>
@@ -33,9 +33,9 @@ const PostCard = ({ cards }) => (
 			/> */}
 			{/* Curso dictado por */}
 		</section>
-		<div id='card-created-by'>
+		{/* <div id='card-created-by'>
 			<p>Alejandro Egea</p>
-		</div>
+		</div> */}
 	</section>
 );
 

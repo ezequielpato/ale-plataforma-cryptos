@@ -4,23 +4,20 @@ import Main from '../componentes/Main';
 import Login from '../componentes/Formularios/Login';
 import Register from '../componentes/Formularios/Register';
 import Footer from '../componentes/Footer';
-import Cards from '../componentes/Cards';
+import Terms from '../componentes/Terms/';
+import Privacy from '../componentes/Privacy';
+import Cookies from '../componentes/Cookies';
 
 export default function Home() {
 	return (
 		<section className='text-light'>
-			{/** Header Component */}
 			<Navbar />
-
-			{/* Primary Main Component */}
 			<Main />
-			{/* <Cards /> */}
-
-			{/** Register and Login Components */}
-			{/* <Register />*/}
-			{/* <Login /> */}
-
-			{/* Footer Component */}
+			<Terms />
+			<Privacy />
+			<Cookies />
+			<Register />
+			<Login />
 			<Footer />
 		</section>
 	);

@@ -11,6 +11,9 @@ import '/styles/section3.css';
 import '/styles/section4.css';
 import '/styles/contacto.css';
 import '/styles/footer.css';
+import '/styles/terms.css';
+import '/styles/privacy.css';
+import '/styles/cookies.css';
 
 // Libreria de Animaciones https://animate.style/
 import 'animate.css';
