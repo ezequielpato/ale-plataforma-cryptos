@@ -7,8 +7,8 @@ import { yupResolver } from '@hookform/resolvers/yup';
 // Schema con validaciones de yupResolver
 import { schema } from '../../schemas/schema';
 
-// Libreria de Animaciones https://animate.style/
-import 'animate.css';
+// // Libreria de Animaciones https://animate.style/
+// import 'animate.css';
 
 // Array de paises para Form.Select
 import paises from '../../utils/paises';

@@ -14,11 +14,11 @@ export default function Home() {
 
 			{/* Primary Main Component */}
 			<Main />
-			<Cards />
+			{/* <Cards /> */}
 
 			{/** Register and Login Components */}
-			{/* <Register />
-			<Login /> */}
+			{/* <Register />*/}
+			{/* <Login /> */}
 
 			{/* Footer Component */}
 			<Footer />

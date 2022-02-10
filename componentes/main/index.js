@@ -1,21 +1,22 @@
-import Header from './Header';
-import SectionOne from './SectionOne';
-import SectionTwo from './SectionTwo';
-import SectionThree from './SectionThree';
-import SectionFour from './SectionFour';
+import SectionZero from './Section0';
+import SectionOne from './Section1';
+import SectionTwo from './Section2';
+import SectionThree from './Section3';
+import SectionFour from './Section4';
 import Contacto from './Contacto';
 import SectionLast from './SectionLast';
 
 const Main = () => {
 	return (
-		<section>
-			<Header />
+		<section className='main-font'>
+			<SectionZero />
 			<SectionOne />
 			<SectionTwo />
 			<SectionThree />
 			<SectionFour />
 			<Contacto />
-			<SectionLast />
+			{/* Sección comentada temporalmente
+			<SectionLast /> */}
 		</section>
 	);
 };

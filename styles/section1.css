@@ -1,0 +1,29 @@
+.section1-img {
+	margin: 3rem auto 0 auto;
+	width: 240px;
+	height: auto;
+	margin-top: 3rem;
+}
+
+.section1-img:hover {
+	transform: scale(1.03);
+	transition: 500ms ease-in-out;
+}
+
+@media (min-width: 428px) {
+	.section1-img {
+		width: 280px;
+	}
+}
+
+@media (min-width: 600px) {
+}
+
+@media (min-width: 800px) {
+}
+
+@media (min-width: 1000px) {
+}
+
+@media (min-width: 1200px) {
+}

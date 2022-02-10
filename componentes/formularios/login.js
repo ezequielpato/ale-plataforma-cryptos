@@ -7,8 +7,8 @@ import { yupResolver } from '@hookform/resolvers/yup';
 // Schema con validaciones de yupResolver
 import { schema } from '../../schemas/schema';
 
-// Libreria de Animaciones https://animate.style/
-import 'animate.css';
+// // Libreria de Animaciones https://animate.style/
+// import 'animate.css';
 
 const Login = () => {
 	const { register, handleSubmit, errors, reset, setValue } = useForm({
