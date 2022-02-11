@@ -4,30 +4,11 @@
 	margin: 2rem auto 0 auto;
 }
 
-.section4-wrap h2 {
-	margin-bottom: 3rem;
-}
-
-.section4-wrap h4 {
-	font-size: 1.4rem;
-	font-weight: 400;
-	margin-bottom: 1.2rem;
-}
-
-.section4-wrap h6 {
-	font-size: 1rem;
-}
-
-#section4-subtitle {
-	font-size: 1.6rem;
-	text-align: center;
-}
-
 .section4-box {
 	max-width: 600px;
 	border-radius: 20px;
 	margin: 1rem auto 2rem auto;
-	padding: 2.5rem 2.5rem 0 1rem;
+	padding: 2.5rem 1.5rem 0 1.5rem;
 }
 
 .section4-box h4 {
@@ -44,6 +25,30 @@
 	text-align: left;
 	font-weight: 300;
 	width: 90%;
+}
+
+#section4-subtitle {
+	font-size: 1.6rem;
+	text-align: center;
+}
+
+.section4-wrap {
+	margin: 0;
+	width: 100%;
+}
+
+.section4-wrap h2 {
+	margin-bottom: 3rem;
+}
+
+.section4-wrap h4 {
+	font-size: 1.4rem;
+	font-weight: 400;
+	margin-bottom: 1.2rem;
+}
+
+.section4-wrap h6 {
+	font-size: 1rem;
 }
 
 .section4-icon-div {
@@ -64,6 +69,11 @@
 }
 
 @media (min-width: 428px) {
+	.section4-wrap {
+		width: 100%;
+		margin: 0 auto 0 auto;
+	}
+
 	.section4-wrap h2 {
 		max-width: 700px;
 		margin: 0 auto 4rem auto;
@@ -74,17 +84,8 @@
 	}
 }
 
-@media (min-width: 600px) {
-}
-
 @media (min-width: 800px) {
 	.section4-wrap h2 {
 		max-width: 630px;
 	}
-}
-
-@media (min-width: 1000px) {
-}
-
-@media (min-width: 1460px) {
 }

@@ -7,11 +7,6 @@ const Footer = () => {
 	return (
 		<div className='footer-container' id='contact'>
 			<div className='footer-wrap'>
-				{/* Section Fast Links */}
-				<section className='footer-links-container'>
-					<h6 className='footer-h6'>Top</h6>
-				</section>
-
 				{/* Image Logo A Egea */}
 				<img className='footer-img' src={`${URL_IMAGE}/pics/logo3.png`} alt='' />
 

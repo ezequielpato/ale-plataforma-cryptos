@@ -13,11 +13,11 @@ export default function Home() {
 		<section className='text-light'>
 			<Navbar />
 			<Main />
-			<Terms />
-			<Privacy />
-			<Cookies />
-			<Register />
-			<Login />
+			{/* <Terms /> */}
+			{/* <Privacy /> */}
+			{/* <Cookies /> */}
+			{/* <Register /> */}
+			{/* <Login /> */}
 			<Footer />
 		</section>
 	);

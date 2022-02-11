@@ -4,6 +4,12 @@
 	height: 100%;
 }
 
+.contacto-wrap {
+	padding: 5rem 0 5rem 0;
+	margin: 0;
+	width: 100%;
+}
+
 #contacto-title {
 	font-size: 1.6rem;
 	text-transform: uppercase;
@@ -17,25 +23,10 @@
 	text-align: left;
 }
 
-.contacto-wrap {
-	padding-bottom: 0;
-}
-
-.contacto-wrap h4 {
-	font-size: 1.4rem;
-	font-weight: 400;
-	margin-bottom: 1.2rem;
-}
-
-.contacto-wrap h6 {
-	font-size: 1rem;
-}
-
 .contacto-box {
 	max-width: 600px;
 	border-radius: 20px;
-	margin: 1rem auto 2rem auto;
-	padding: 2.5rem 1rem 2.5rem 1rem;
+	padding: 2.5rem 1.5rem 2.5rem 1.5rem;
 }
 
 .contacto-box h4 {
@@ -70,16 +61,15 @@
 	margin: 0 0.5rem 0 0;
 }
 
-.contacto-hover:hover {
-	transform: scale(1.15);
-	transition: 100ms ease-in-out;
-}
-
 #contacto-phone {
 	font-size: 1.5rem;
 	margin: 0 0.5rem 0 0;
 }
 
+.contacto-hover:hover {
+	transform: scale(1.15);
+	transition: 100ms ease-in-out;
+}
 #contacto-contactos {
 	margin-top: 1.5rem;
 }
@@ -120,33 +110,28 @@
 	margin: 0 1rem 0 0.5rem;
 }
 
-.contacto-content h6 {
-	max-width: 320px;
-	height: auto;
-}
-
 @media (min-width: 428px) {
-	.contacto-wrap h2 {
-		max-width: 700px;
-		margin: 0 auto 4rem auto;
+	.contacto-wrap {
+		width: 100%;
+		margin: 0 auto 0 auto;
 	}
 
 	.contacto-box {
-		padding: 2.5rem 1rem 2.5rem 1.5rem;
+		width: 100%;
+		margin: 0 auto 0 auto;
+		padding: 2.5rem 3rem 2.5rem 3rem;
 	}
 }
 
 @media (min-width: 600px) {
-}
-
-@media (min-width: 800px) {
-	.contacto-wrap h2 {
-		max-width: 630px;
+	.contacto-wrap {
+		width: 100%;
+		margin: 0 auto 0 auto;
 	}
-}
 
-@media (min-width: 1000px) {
-}
-
-@media (min-width: 1460px) {
+	.contacto-box {
+		width: 100%;
+		margin: 0 auto 0 auto;
+		padding: 2.5rem 4rem 2.5rem 4rem;
+	}
 }
