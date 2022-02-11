@@ -1,0 +1,61 @@
+.pdfs-wrap h5 {
+	margin-bottom: 2rem;
+}
+
+.pdfs-content {
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	width: 20%;
+}
+
+.pdfs-line {
+	display: flex;
+	flex-direction: row;
+	height: auto;
+	height: 1.5rem;
+	margin-bottom: 1rem;
+}
+
+.pdfs-icons {
+	width: 2.5rem;
+}
+
+.pdfs-ico {
+	height: 100%;
+}
+
+.pdfs-file {
+	display: flex;
+	align-items: center;
+	height: 100%;
+	width: 100%;
+	text-decoration: none;
+}
+
+.pdfs-file a {
+	text-decoration: none;
+	color: rgb(206, 206, 206);
+}
+
+#pdfs-file {
+	font-size: 1rem;
+	margin: 0;
+	padding-top: 0.2rem;
+	padding-left: 0.5rem;
+}
+
+@media (min-width: 428px) {
+}
+
+@media (min-width: 600px) {
+}
+
+@media (min-width: 800px) {
+}
+
+@media (min-width: 1000px) {
+}
+
+@media (min-width: 1200px) {
+}
