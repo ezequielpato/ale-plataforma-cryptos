@@ -1,6 +1,6 @@
 import Cards from '../Main/Cards';
 
-const Terms = () => {
+const Section3 = () => {
 	return (
 		<div className='main-conteiner main-bggrey2'>
 			<div className='main-wrap section3-wrap'>
@@ -25,4 +25,4 @@ const Terms = () => {
 	);
 };
 
-export default Terms;
+export default Section3;

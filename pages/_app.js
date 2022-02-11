@@ -1,5 +1,7 @@
 import Head from 'next/head';
 
+import { URL_IMAGE } from '../config/constants';
+
 import 'bootstrap/dist/css/bootstrap.css';
 import '../styles/globals.css';
 import '/styles/cards.css';
@@ -26,6 +28,8 @@ function MyApp({ Component, pageProps }) {
 					rel='stylesheet'
 					href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css'
 				/>
+				{/* <link rel='icon' type='image/x-icon' href='/images/favicon.ico'></link> */}
+				<link rel='icon' type='image/x-icon' href={`${URL_IMAGE}/favicon1.ico`}></link>
 				<link rel='preconnect' href='https://fonts.googleapis.com'></link>
 				<link rel='preconnect' href='https://fonts.gstatic.com' crossorigin></link>
 				<link
