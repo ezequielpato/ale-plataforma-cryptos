@@ -5,14 +5,14 @@
 	max-width: 1200px;
 	margin: auto;
 	width: 100%;
-	padding-top: 4rem;
+	padding-top: 3rem;
 }
 
 .card-wrap {
 	max-width: 340px;
 	height: auto;
-	margin: 0 1.5rem 0 1.5rem;
-	background-color: #ececec;
+	margin: 0 auto 0 auto;
+	background-color: #e4e4e4;
 	border: 1px solid #dfdfdf;
 	border-radius: 10px;
 	margin-bottom: 2rem;
@@ -28,8 +28,8 @@
 }
 
 .card-body {
-	height: 170px;
-	padding: 0.5rem 0.8rem 0.5rem 0.8rem;
+	height: auto;
+	padding: 0.9rem 1rem 0 1rem;
 	text-align: center;
 }
 
@@ -53,7 +53,7 @@
 }
 
 .card-overflow {
-	height: 12rem;
+	height: 11rem;
 	overflow: hidden;
 }
 
@@ -76,14 +76,24 @@
 	transform: scale(1.1);
 }
 
-@media (max-width: 1200px) {
+@media (min-width: 428px) {
+	.card-wrap {
+		margin: 0 auto 2rem auto;
+	}
+
 	.cards-container {
-		max-width: 730px;
+		flex-direction: row;
+		max-width: 750px;
 	}
 }
 
-@media (max-width: 730px) {
+@media (min-width: 1400px) {
+	.card-wrap {
+		margin: 0 auto 2rem auto;
+	}
+
 	.cards-container {
-		flex-direction: column;
+		flex-direction: row;
+		max-width: 1100px;
 	}
 }
