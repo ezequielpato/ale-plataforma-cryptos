@@ -5,7 +5,7 @@ import { URL_IMAGE } from '../../config/constants';
 
 const Section4 = () => {
 	return (
-		<div className='main-conteiner main-bggrey'>
+		<div id='sec4container' className='main-conteiner main-bggrey'>
 			<div className='main-wrap section4-wrap'>
 				<h2 className='main-textlight'>¿En que consiste la membresía?</h2>
 
