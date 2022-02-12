@@ -37,30 +37,20 @@ const Contacto = () => {
 						<div className='contacto-telefonicos '>
 							<div className='contacto-ico-contact'>
 								<AiOutlineWhatsApp id='contacto-wapp' />
-								<h6 className='main-textlight'>Lucas:</h6>
-							</div>
-							<div id='contacto-num'>
-								<h6 className='main-textgrey'>11 59426849</h6>
-							</div>
-						</div>
-
-						<div className='contacto-telefonicos'>
-							<div className='contacto-ico-contact'>
-								<AiOutlineWhatsApp id='contacto-wapp' />
-								<h6 className='main-textlight'>Sebastían:</h6>
-							</div>
-							<div id='contacto-num'>
-								<h6 className='main-textgrey'>923 541 9299</h6>
-							</div>
-						</div>
-
-						<div className='contacto-telefonicos'>
-							<div className='contacto-ico-contact'>
-								<AiOutlineWhatsApp id='contacto-wapp' />
 								<h6 className='main-textlight'>Enzo:</h6>
 							</div>
 							<div id='contacto-num'>
-								<h6 className='main-textgrey'>348 420 4565</h6>
+								<h6 className='main-textgrey'>+54 348 420-4565</h6>
+							</div>
+						</div>
+
+						<div className='contacto-telefonicos'>
+							<div className='contacto-ico-contact'>
+								<AiOutlineWhatsApp id='contacto-wapp' />
+								<h6 className='main-textlight'>Seba:</h6>
+							</div>
+							<div id='contacto-num'>
+								<h6 className='main-textgrey'>+54 223 541-9299</h6>
 							</div>
 						</div>
 
@@ -70,7 +60,17 @@ const Contacto = () => {
 								<h6 className='main-textlight'>Martín:</h6>
 							</div>
 							<div id='contacto-num'>
-								<h6 className='main-textgrey'>3496 54 5377</h6>
+								<h6 className='main-textgrey'>+54 3496 54-5377</h6>
+							</div>
+						</div>
+
+						<div className='contacto-telefonicos'>
+							<div className='contacto-ico-contact'>
+								<AiOutlineWhatsApp id='contacto-wapp' />
+								<h6 className='main-textlight'>Lucas:</h6>
+							</div>
+							<div id='contacto-num'>
+								<h6 className='main-textgrey'>+54 11 5942-6849</h6>
 							</div>
 						</div>
 					</div>

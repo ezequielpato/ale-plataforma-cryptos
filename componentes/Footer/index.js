@@ -1,5 +1,5 @@
 import { FaInstagram } from 'react-icons/fa';
-import { SiAiohttp } from 'react-icons/si';
+import { SiWebmoney } from 'react-icons/si';
 
 import { URL_IMAGE } from '/config/constants';
 
@@ -8,10 +8,10 @@ const Footer = () => {
 		<div className='footer-container' id='contact'>
 			<div className='footer-wrap'>
 				{/* Image Logo A Egea */}
-				<img className='footer-img' src={`${URL_IMAGE}/pics/logo3.png`} alt='' />
+				<img className='footer-img' src={`${URL_IMAGE}/pics/logomaster1.png`} alt='' />
 
-				{/* Footer Primary tittle */}
-				<p className='footer-master-tittle'>Master Crypto Club</p>
+				{/* Footer Primary tittle
+				<p className='footer-master-tittle'>Master Crypto Club</p> */}
 
 				{/* Social Media Section */}
 				<section className='footer-social-media'>
@@ -40,7 +40,7 @@ const Footer = () => {
 								rel='noopener noreferrer'
 								aria-label='Webpage'
 							>
-								<SiAiohttp />
+								<SiWebmoney />
 							</a>
 							<p className='footer-link-p'>Web Page</p>
 						</div>
@@ -57,7 +57,7 @@ const Footer = () => {
 				<section className='footer-copyright-section'>
 					{/* Copyright */}
 					<p className='footer-p'>
-						Copyright Alejandro Egea © {new Date().getFullYear()} todos los derechos
+						Copyright Master Crypto Club © {new Date().getFullYear()} todos los derechos
 						reservados.
 					</p>
 

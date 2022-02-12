@@ -29,7 +29,9 @@
 
 #section4-subtitle {
 	font-size: 1.6rem;
-	text-align: center;
+	line-height: 2rem;
+	font-weight: 300;
+	margin-left: 1rem;
 }
 
 .section4-wrap {
@@ -61,6 +63,29 @@
 	margin: 0.2rem 0.7rem 0 0;
 	color: #0ecb81;
 }
+
+.section4-icon1 {
+	font-size: 3rem;
+	margin: 0.2rem 0.7rem;
+	color: #f2c21c;
+}
+
+#section4-icon1 {
+	height: 7rem;
+	width: 90%;
+}
+
+#section4-1 {
+	margin-top: 1rem;
+	margin-left: 1rem;
+	font-size: 1.8rem;
+	color: #f2c21c;
+}
+
+/* #section4-icon1:hover {
+	transform: scale(1.02);
+	transition: 100ms ease-in-out;
+} */
 
 .section4-content h6 {
 	max-width: 320px;

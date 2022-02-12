@@ -1,4 +1,5 @@
 import { BsPatchCheckFill } from 'react-icons/bs';
+import { BsFillBookmarkCheckFill } from 'react-icons/bs';
 
 const Section4 = () => {
 	return (
@@ -7,9 +8,14 @@ const Section4 = () => {
 				<h2 className='main-textlight'>¿En que consiste la membresía?</h2>
 
 				<div className='section4-box main-bggrey1'>
-					<h6 id='section4-subtitle' className='main-textlight'>
-						DURA 1 año.
-					</h6>
+					<div id='section4-icon1' className='section4-icon-div'>
+						<BsFillBookmarkCheckFill className='section4-icon1' />
+						<h6 id='section4-subtitle' className='main-textligh'>
+							El programa está diseñado para profesionalizarte en
+							<b id='section4-1'>1 año.</b>
+						</h6>
+					</div>
+
 					<div className='section4-icon-div'>
 						<BsPatchCheckFill className='section4-icon' />
 						<h4 className='main-textlight'>Acceso total a la plataforma</h4>
