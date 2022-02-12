@@ -5,7 +5,7 @@ const Section0 = () => {
 		<div
 			className='section0-conteiner'
 			style={{
-				backgroundImage: `linear-gradient(to top, rgb(19, 20, 26, 1), rgba(0, 0, 0, 0.1)), url('${URL_IMAGE}/pics/top4.png')`,
+				backgroundImage: `linear-gradient(to  top, rgb(19, 20, 26, 1 ) 0%, rgba(0, 0, 0, 0.1)), url('${URL_IMAGE}/pics/bn_top2.png')`,
 			}}
 		>
 			<section className='section0-wrap animate__animated animate__fadeInUp'>

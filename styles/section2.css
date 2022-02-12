@@ -4,12 +4,23 @@
 	margin: auto;
 }
 
+.section2-wrap {
+	padding: 3rem 0 1rem 0;
+	min-height: 725px;
+}
+
 .section2-wrap h2 {
 	margin-bottom: 3rem;
 }
 
 .section2-content {
 	margin: 1rem auto 0 auto;
+}
+
+.section2-content-div h5 {
+	font-weight: 400;
+	font-size: 1.4rem;
+	width: 90%;
 }
 
 .section2-content h6 {
@@ -23,7 +34,7 @@
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
-	margin: 2rem auto 0 auto;
+	margin: 1rem auto 0 auto;
 }
 
 .section2-criptos img {
@@ -44,16 +55,14 @@
 	}
 }
 
-@media (min-width: 600px) {
-}
-
 @media (min-width: 800px) {
+	.section2-wrap {
+		padding: 3rem 0 1rem 0;
+		min-height: 725px;
+	}
 	.section2-wrap h2 {
 		max-width: 630px;
 	}
-}
-
-@media (min-width: 1000px) {
 }
 
 @media (min-width: 1460px) {
@@ -78,6 +87,6 @@
 	}
 
 	.section2-criptos {
-		margin: 5rem auto 0 auto;
+		margin: 2rem auto 0 auto;
 	}
 }

@@ -95,18 +95,32 @@
 
 .main-textgrey {
 	color: #848e9c;
+	text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
 
 .main-textgrey2 {
 	color: #a3aab6;
+	text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+.main-textgrey211 {
+	color: #c0bfbf;
+	text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+.main-textgrey21 {
+	color: #d3d3d3;
+	text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
 
 .main-textgrey3 {
 	color: #d5d7db;
+	text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
 
 .main-textlight {
 	color: #eaecef;
+	text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
 
 @media (min-width: 500px) {
