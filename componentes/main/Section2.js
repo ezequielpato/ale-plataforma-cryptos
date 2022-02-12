@@ -36,7 +36,7 @@ const Section2 = () => {
 					</div>
 				</section>
 				<div className='section2-criptos'>
-					<img src={`${URL_IMAGE}/pics/bnb_ico.png`} alt='' />
+					<img src={`${URL_IMAGE}/pics/btc_ico.png`} alt='' />
 					<img src={`${URL_IMAGE}/pics/eth_ico.png`} alt='' />
 					<img src={`${URL_IMAGE}/pics/ada_ico.png`} alt='' />
 					<img src={`${URL_IMAGE}/pics/bnb_ico.png`} alt='' />

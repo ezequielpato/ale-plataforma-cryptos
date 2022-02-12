@@ -1,0 +1,115 @@
+.section0-conteiner {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 50vh;
+	margin: auto;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: #13141a;
+}
+
+.section0-wrap {
+	display: flex;
+	flex-direction: column;
+	width: 90%;
+	height: auto;
+	margin: 7.5rem auto 0 auto;
+	text-shadow: 4px 4px 2px #000;
+	padding-left: 1rem;
+}
+
+.section0-wrap h1 {
+	font-size: 1.35rem;
+	margin-bottom: 1rem;
+	letter-spacing: 0.1rem;
+}
+
+.section0-wrap h2 {
+	display: flex;
+	justify-content: flex-end;
+	font-size: 1.15rem;
+	margin-bottom: 2rem;
+	letter-spacing: 0.1rem;
+}
+
+.section0-wrap h5 {
+	font-size: 1.1rem;
+	font-weight: 300;
+	padding-left: 1rem;
+	margin-top: 0.5rem;
+	letter-spacing: 0.15rem;
+}
+
+@media (min-width: 428px) {
+	.section0-wrap {
+		max-width: 640px;
+	}
+	.section0-wrap h1 {
+		font-size: 1.5rem;
+	}
+
+	.section0-wrap h2 {
+		padding-right: 3.5rem;
+		font-size: 1.3rem;
+	}
+
+	.section0-wrap h5 {
+		font-size: 1.2rem;
+	}
+}
+
+@media (min-width: 800px) {
+	.section0-wrap {
+		max-width: 770px;
+	}
+
+	.section0-wrap h1 {
+		font-size: 1.7rem;
+	}
+
+	.section0-wrap h2 {
+		padding-right: 3.5rem;
+		font-size: 1.5rem;
+	}
+
+	.section0-wrap h5 {
+		font-size: 1.4rem;
+	}
+}
+
+@media (min-width: 1000px) {
+	.section0-wrap h1 {
+		font-size: 1.9rem;
+	}
+
+	.section0-wrap h2 {
+		padding-right: 5rem;
+		font-size: 1.7rem;
+	}
+
+	.section0-wrap h5 {
+		font-size: 1.6rem;
+	}
+}
+
+@media (min-width: 1200px) {
+	.section0-wrap {
+		max-width: 1000px;
+	}
+
+	.section0-wrap h1 {
+		font-size: 2.5rem;
+	}
+
+	.section0-wrap h2 {
+		padding-right: 3.5rem;
+		font-size: 2.1rem;
+	}
+
+	.section0-wrap h5 {
+		font-weight: 200;
+		font-size: 2rem;
+	}
+}

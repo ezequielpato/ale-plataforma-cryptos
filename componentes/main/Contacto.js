@@ -20,7 +20,7 @@ const Contacto = () => {
 						<FaRegAddressCard className='contacto-hover' id='contacto-address' />
 						<h4 className='main-textgrey3'>Dirección:</h4>
 					</div>
-					<h6 className='main-textgrey '>solicitar dato...</h6>
+					<h6 className='main-textgrey '>Av Corrientes 1389 - Piso 9</h6>
 
 					<div className='contacto-icon-div'>
 						<HiOutlineMail className='contacto-hover' id='contacto-email' />
