@@ -4,7 +4,6 @@ import SectionTwo from './Section2';
 import SectionThree from './Section3';
 import SectionFour from './Section4';
 import Contacto from './Contacto';
-import SectionLast from './SectionLast';
 
 const Main = () => {
 	return (
@@ -15,8 +14,6 @@ const Main = () => {
 			<SectionThree />
 			<SectionFour />
 			<Contacto />
-			{/* Sección comentada temporalmente
-			<SectionLast /> */}
 		</section>
 	);
 };
