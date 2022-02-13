@@ -2,7 +2,7 @@ import { URL_IMAGE } from '../../config/constants';
 
 const Section1 = () => {
 	return (
-		<div className='main-conteiner main-bggrey2'>
+		<div id='section1-container' className='main-conteiner main-bggrey2'>
 			<div id='section1' className='main-wrap '>
 				<h2 className='main-textlight'>¿Que es el Master Crypto?</h2>
 				<h5 className='main-textgrey3'>

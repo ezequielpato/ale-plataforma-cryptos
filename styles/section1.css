@@ -1,3 +1,23 @@
+#section1-container {
+	background: rgb(19, 20, 22);
+	background: -moz-linear-gradient(
+		180deg,
+		rgba(19, 20, 22, 1) 5%,
+		rgba(34, 36, 38, 0.6390756986388305) 38%
+	);
+	background: -webkit-linear-gradient(
+		180deg,
+		rgba(19, 20, 22, 1) 5%,
+		rgba(34, 36, 38, 0.6390756986388305) 38%
+	);
+	background: linear-gradient(
+		180deg,
+		rgba(19, 20, 22, 1) 5%,
+		rgba(34, 36, 38, 0.6390756986388305) 35%
+	);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#131416",endColorstr="#222426",GradientType=1);
+}
+
 #section1 {
 	padding-top: 0rem;
 }

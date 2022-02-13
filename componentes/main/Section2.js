@@ -3,6 +3,7 @@ import { URL_IMAGE } from '../../config/constants';
 const Section2 = () => {
 	return (
 		<div
+			id='section2'
 			style={{
 				backgroundImage: `url('${URL_IMAGE}/pics/bn_top1.png')`,
 			}}
