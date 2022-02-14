@@ -5,9 +5,8 @@ const Section0 = () => {
 		<div
 			id='section0'
 			style={{
-				backgroundImage: `url('${URL_IMAGE}/pics/top.png')`,
+				backgroundImage: `url('${URL_IMAGE}/pics/top2.png')`,
 			}}
-			className='section0-conteiner '
 		>
 			<section className='section0-wrap animate__animated animate__fadeInUp'>
 				<h1>Con muchos años de experiencia a tu disposición.</h1>
