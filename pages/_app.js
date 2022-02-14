@@ -36,6 +36,12 @@ function MyApp({ Component, pageProps }) {
 					href='https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;1,100&display=swap'
 					rel='stylesheet'
 				></link>
+				<link rel='preconnect' href='https://fonts.googleapis.com'></link>
+				<link rel='preconnect' href='https://fonts.gstatic.com' crossorigin></link>
+				<link
+					href='https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap'
+					rel='stylesheet'
+				></link>
 			</Head>
 			<Component {...pageProps} />
 		</>
