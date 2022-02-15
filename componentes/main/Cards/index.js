@@ -16,7 +16,7 @@ const PostCard = ({ cards }) => (
 		<section className='card-body'>
 			{/* Titulo de la carta */}
 
-			<h5 id='h5'>{cards.title}</h5>
+			<h5 id='cardsh5'>{cards.title}</h5>
 
 			{/* Descripcion  */}
 			<p>{cards.description}</p>
